@@ -404,6 +404,41 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer__container {
+  row-gap: 3rem;
+}
+
+.footer__logo {
+  color: var(--title-color);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+  display: inline-block;
+  margin-bottom: .75rem;
+}
+
+.footer__content,
+.footer__links {
+  display: grid;
+}
+
+.footer__content {
+  grid-template-columns: repeat(2, max-content);
+  gap:3.5rem 3rem;
+}
+
+.footer__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1.25rem;
+}
+
+.footer__links {
+  row-gap: .75rem;
+}
+
+/* .footer__link,
+.footer__information {
+
+} */
 
 
 /*=============== SCROLL BAR ===============*/
